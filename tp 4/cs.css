@@ -1,0 +1,45 @@
+/* Modo claro */
+body {
+ background-color: white;
+ color: black;
+}
+
+#title {
+ font-size: 24px;
+}
+
+#subtitle {
+ font-size: 18px;
+}
+
+#content {
+ font-size: 14px;
+}
+
+button {
+ background-color: blue;
+ color: white;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+ background-color: black;
+ color: white;
+}
+
+#title.dark-mode {
+ font-size: 24px;
+}
+
+#subtitle.dark-mode {
+ font-size: 18px;
+}
+
+#content.dark-mode {
+ font-size: 14px;
+}
+
+button.dark-mode {
+ background-color: red;
+ color: white;
+}
